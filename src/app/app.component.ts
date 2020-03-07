@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  name = 'Angular1';
+openNavbar = false;
+  toggleNavbar(){
+     this.openNavbar = !this.openNavbar;
+    console.log(this.openNavbar);
+    console.log("hi")
+  }
 }
